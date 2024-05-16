@@ -13,7 +13,7 @@
 
 ### Sending diplomas to the students of a course 
 
-| Description | Power Automate |
+| **Description** | **Power Automate** |
 |-----:|---------------|
 |As a trigger for this flow we will use a Microsoft form, so we start by creating one.|    In Microsoft Forms   ![Microsoft Form](https://github.com/laurasalvadorglez/Automations/blob/main/Assets/form.png)         |
 |Add the trigger and the action “Get response details”.|       ![Microsoft Form](https://github.com/laurasalvadorglez/Automations/blob/main/Assets/form2.png)        |
