@@ -1,9 +1,15 @@
 # Automations 🔃
 ## Table of Contents
-1. [Sending diplomas to the students of a course](#Sending-diplomas-to-the-students-of-a-course)
-2. [Create diplomas](#Create-diplomas)
+1. [Create diplomas](#Create-diplomas)
+2. [Sending diplomas to the students of a course](#Sending-diplomas-to-the-students-of-a-course)
+
 
 ### Create diplomas
+
+| Description | Power Automate |
+|-----:|---------------|
+|As a trigger for this flow we will use a Microsoft form, so we start by creating one.|    In Microsoft Forms   ![Microsoft Form]
+
 
 ### Sending diplomas to the students of a course 
 
