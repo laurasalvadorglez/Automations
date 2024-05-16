@@ -14,7 +14,7 @@
 ### Sending diplomas to the students of a course 
 
 | **Description** | **Power Automate** |
-|-----:|---------------|
+|:-----:|:---------------:|
 |As a trigger for this flow we will use a Microsoft form, so we start by creating one.|    In Microsoft Forms   ![Microsoft Form](https://github.com/laurasalvadorglez/Automations/blob/main/Assets/form.png)         |
 |Add the trigger and the action “Get response details”.|       ![Microsoft Form](https://github.com/laurasalvadorglez/Automations/blob/main/Assets/form2.png)        |
 |Create a Parse Json for the excel (the file we will attach to the form) and add a “Get file content”.|     ![3rd step](https://github.com/laurasalvadorglez/Automations/blob/main/Assets/3.png)          |
