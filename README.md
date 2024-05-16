@@ -6,8 +6,8 @@
 
 ### Create diplomas
 
-| Description | Power Automate |
-|-----:|---------------|
+| **Description** | **Power Automate** |
+|:-----:|:---------------:|
 |As a trigger for this flow we will use a Microsoft form, so we start by creating one.|    In Microsoft Forms   ![Microsoft Form]
 
 
