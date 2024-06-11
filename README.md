@@ -17,6 +17,8 @@
 |We add a condition so that, if there is a mismatch, the technician is notified and the flow is stopped.|         ![Number of files 2](https://github.com/laurasalvadorglez/Automations/blob/main/Assets/numfiles2.png)       |
 |Create the table so the flow can read the excel.|       ![json](https://github.com/laurasalvadorglez/Automations/blob/main/Assets/creartabla.png)      |
 |We add 2 actions that create the folders of signed and unsigned, named with the course identifier. In parallel an error message in case the creation of the table fails. |       ![json](https://github.com/laurasalvadorglez/Automations/blob/main/Assets/carpetas.png)      |
+|Create an Apply to Each and add a Parse Json with the json schema of the Excel row |       ![Apply to each](https://github.com/laurasalvadorglez/Automations/blob/main/Assets/applyto.png)      |
+|We fill a Word file with the information of an Excel row. And add a Create File because otherwise the filled Word is not saved. <sub> NOTE: When indicating the tag to be filled in Word, we have the problem that even if it is named the same way in different templates, the Word internal identifier changes. Therefore, the only solution found so far has been to copy and paste the tag from one template to another before sending it in the form. </sub> |       ![Populate](https://github.com/laurasalvadorglez/Automations/blob/main/Assets/populate.png)      |
 
 
 
