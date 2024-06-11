@@ -9,9 +9,9 @@
 | **Description** | **Power Automate** |
 |:-----:|:---------------:|
 |As a trigger for this flow we will use a Microsoft form, so we start by creating one.|    In Microsoft Forms   ![Microsoft Form](https://github.com/laurasalvadorglez/Automations/blob/main/Assets/form1.png)         |
-|*To find the identifier execute the flow, and go to the outputs in "Get response details" there, in body, you will find the identifier, it will look like this: "r430a1759d1734798a85fd621869aedf6" ![Microsoft Form](https://github.com/laurasalvadorglez/Automations/blob/main/Assets/id.png) |    ff   ![Microsoft Form](https://github.com/laurasalvadorglez/Automations/blob/main/Assets/json2.png)         |
-
-|Create the json schema|       ![json](https://github.com/laurasalvadorglez/Automations/blob/main/Assets/json.png)      |
+|**To find the identifier execute the flow, and go to the outputs in "Get response details" there, in body, you will find the identifier, it will look like this: "r430a1759d1734798a85fd621869aedf6"** |   ![form identifier](https://github.com/laurasalvadorglez/Automations/blob/main/Assets/id.png)         |
+|**To create the schema, we go to the executed flow and copy the specified address** |   ![Parse json](https://github.com/laurasalvadorglez/Automations/blob/main/Assets/json2.png)         |
+|Add 2 Parse Json, and configure them with the previous steps.|       ![json](https://github.com/laurasalvadorglez/Automations/blob/main/Assets/json.png)      |
 
 
 
