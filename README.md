@@ -10,11 +10,13 @@
 |:-----:|:---------------:|
 |As a trigger for this flow we will use a Microsoft form, so we start by creating one.|    In Microsoft Forms   ![Microsoft Form](https://github.com/laurasalvadorglez/Automations/blob/main/Assets/form1.png)         |
 |**To find the identifier execute the flow, and go to the outputs in "Get response details" there, in body, you will find the identifier, it will look like this: "r430a1759d1734798a85fd621869aedf6"** |   ![form identifier](https://github.com/laurasalvadorglez/Automations/blob/main/Assets/id.png)         |
-|**To create the schema, we go to the executed flow and copy the specified address** |   ![Parse json](https://github.com/laurasalvadorglez/Automations/blob/main/Assets/json2.png)         |
+|**To create the schema, we go to the executed flow and copy the specified address (Without the square brackets.)** |   ![Parse json](https://github.com/laurasalvadorglez/Automations/blob/main/Assets/json2.png)         |
 |Add 2 Parse Json, and configure them with the previous steps.|       ![json](https://github.com/laurasalvadorglez/Automations/blob/main/Assets/json.png)      |
-
-
-
+|Add a “Get file content” to save the Excel information.|       ![json](https://github.com/laurasalvadorglez/Automations/blob/main/Assets/getfile.png)      |
+|To verify that there are the same number of files as rows in the excel. |         ![Number of files 1](https://github.com/laurasalvadorglez/Automations/blob/main/Assets/numfiles.png)       |
+|We add a condition so that, if there is a mismatch, the technician is notified and the flow is stopped.|         ![Number of files 2](https://github.com/laurasalvadorglez/Automations/blob/main/Assets/numfiles2.png)       |
+|Create the table so the flow can read the excel.|       ![json](https://github.com/laurasalvadorglez/Automations/blob/main/Assets/creartabla.png)      |
+|We add 2 actions that create the folders of signed and unsigned, named with the course identifier. In parallel an error message in case the creation of the table fails. |       ![json](https://github.com/laurasalvadorglez/Automations/blob/main/Assets/carpetas.png)      |
 
 
 
@@ -25,7 +27,7 @@
 |As a trigger for this flow we will use a Microsoft form, so we start by creating one.|    In Microsoft Forms   ![Microsoft Form](https://github.com/laurasalvadorglez/Automations/blob/main/Assets/form.png)         |
 |Add the trigger and the action “Get response details”.|       ![Microsoft Form](https://github.com/laurasalvadorglez/Automations/blob/main/Assets/form2.png)        |
 |Create a Parse Json for the excel (the file we will attach to the form) and add a “Get file content”.|     ![3rd step](https://github.com/laurasalvadorglez/Automations/blob/main/Assets/3.png)          |
-|Create the table so that the flow can read the excel|         ![Create table](https://github.com/laurasalvadorglez/Automations/blob/main/Assets/converttable1.png)       |
+|Create the table so the flow can read the excel|         ![Create table](https://github.com/laurasalvadorglez/Automations/blob/main/Assets/converttable1.png)       |
 |To verify that there are the same number of files as rows in the excel.|         ![Number of files 1](https://github.com/laurasalvadorglez/Automations/blob/main/Assets/numfiles.png)       |
 |We add a condition so that, if there is a mismatch, the technician is notified and the flow is stopped.|         ![Number of files 2](https://github.com/laurasalvadorglez/Automations/blob/main/Assets/numfiles2.png)       |
 |We initialize the variables in order to create the next block.|         ![Variables](https://github.com/laurasalvadorglez/Automations/blob/main/Assets/variables.png)       |
