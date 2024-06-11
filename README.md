@@ -22,10 +22,10 @@
 |To verify that there are the same number of files as rows in the excel.|         ![Number of files 1](https://github.com/laurasalvadorglez/Automations/blob/main/Assets/numfiles.png)       |
 |We add a condition so that, if there is a mismatch, the technician is notified and the flow is stopped.|         ![Number of files 2](https://github.com/laurasalvadorglez/Automations/blob/main/Assets/numfiles2.png)       |
 |We initialize the variables in order to create the next block.|         ![Variables](https://github.com/laurasalvadorglez/Automations/blob/main/Assets/variables.png)       |
-
-
-
-|Create a variable to initialize the attachments.|        ![Create Array](https://github.com/laurasalvadorglez/Automations/blob/main/Assets/Array%205.png)       |
+|Now we make a second check. This time, we check that each Excel row has its respective document.|         ![Check names](https://github.com/laurasalvadorglez/Automations/blob/main/Assets/checknames.png)       |
+|We create an Apply to each where we make a row comparison with the file names.|         ![Check names 2](https://github.com/laurasalvadorglez/Automations/blob/main/Assets/checknames2.png)       |
+|We create another comparison, in which if “Missing files” is true it sends a message to the technician with the name of the missing file and stops the flow. |         ![Check names 3](https://github.com/laurasalvadorglez/Automations/blob/main/Assets/checknames3.png)       |
+|Start a variable to store the documents |         ![Initialize variable](https://github.com/laurasalvadorglez/Automations/blob/main/Assets/Initvar.png)       |
 |Start the for each. We add a Parse Json and the action of Get file content using path.|      ![For Each 1](https://github.com/laurasalvadorglez/Automations/blob/main/Assets/ForEach1.png)         |
 |Name the variable created before|      ![Name var](https://github.com/laurasalvadorglez/Automations/blob/main/Assets/ForEach2.png)         |
 |Configure the sending of emails.|      ![Emails](https://github.com/laurasalvadorglez/Automations/blob/main/Assets/ForEach3.png)         |
