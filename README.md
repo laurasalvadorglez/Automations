@@ -19,8 +19,8 @@
 |We add 2 actions that create the folders of signed and unsigned, named with the course identifier. In parallel an error message in case the creation of the table fails. |       ![json](https://github.com/laurasalvadorglez/Automations/blob/main/Assets/carpetas.png)      |
 |Create an Apply to Each and add a Parse Json with the json schema of the Excel row |       ![Apply to each](https://github.com/laurasalvadorglez/Automations/blob/main/Assets/applyto.png)      |
 |We fill a Word file with the information of an Excel row. And add a Create File because otherwise the filled Word is not saved. <sub> NOTE: When indicating the tag to be filled in Word, we have the problem that even if it is named the same way in different templates, the Word internal identifier changes. Therefore, the only solution found so far has been to copy and paste the tag from one template to another before sending it in the form. </sub> |       ![Populate](https://github.com/laurasalvadorglez/Automations/blob/main/Assets/populate.png)      |
-
-
+|Convert Word documents to PDF. |       ![PDF](https://github.com/laurasalvadorglez/Automations/blob/main/Assets/pdf.png)   |
+|Finally, we add a “Deletes the file specified” to delete the docx version. |       ![Delete docx](https://github.com/laurasalvadorglez/Automations/blob/main/Assets/delete.png)   |
 
 ### Sending diplomas to the students of a course 
 
